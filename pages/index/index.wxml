@@ -1,5 +1,61 @@
 <!--index.wxml-->
 <view class="container">
- <van-button type="primary">按钮</van-button>
- <view class="title-1">anjiju</view>
+ <view class="index-swiper">
+  <swiper>
+    <swiper-item><image></image></swiper-item>
+    <swiper-item><image></image></swiper-item>
+    <swiper-item><image></image></swiper-item>
+  </swiper>
+ </view>
+ <view class="index-content">
+  <view class="content-title">
+    <image></image>
+    <view>题目总数</view>
+    <view>1024</view>
+  </view>
+
+  <view class="model-blue">
+    <view>
+      <image></image>
+      <view>章节练习</view>
+    </view>
+    <view>
+      <image></image>
+      <view>章节练习</view>
+    </view>
+    <view>
+      <image></image>
+      <view>章节练习</view>
+    </view>
+  </view>
+
+  <view class="model-exercises">
+    <view>
+      <image></image>
+      <view>自我测试</view>
+    </view>
+    <view>
+      <image></image>
+      <view>自我测试</view>
+    </view>
+    <view>
+      <image></image>
+      <view>自我测试</view>
+    </view>
+    <view>
+      <image></image>
+      <view>自我测试</view>
+    </view>
+  </view>
+
+  <view class="model-about">
+    <view>关于风向标</view>
+    <view>青岛风向标无人机培训学院是经中国青青岛风向标无人机培训学院是经中国岛风向标无人机培训学院是经中国</view>
+  </view>
+
+  <view class="mode-more">
+    <image></image>
+    <view>了解更多</view>
+  </view>
+ </view>
 </view>

@@ -1,14 +1,84 @@
 {
-  "pages":[
-    "pages/index/index",
-    "pages/logs/logs"
-  ],
-  "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
-  },
+  "pages": [
+      
+      "pages/admin/admin",
+      "pages/index/index",
+      "component/nav/nav"
   
+  ],
+  "subPackages": [
+    {
+      "root": "package-admin",
+      "pages": [
+        "pages/admin-about", 
+        "pages/admin-mocktest", 
+        "pages/admin-selftest", 
+        "pages/admin-feedback" 
+      ]
+    },
+    {
+      "root": "package-itembank",
+      "pages": [
+        "pages/ground-station", 
+        "pages/ground-example", 
+        "pages/ground-trueques", 
+        "pages/ground-tip", 
+
+        "pages/college-teacher", 
+        "pages/college-consultation", 
+        "pages/college-environment", 
+        "pages/college-details", 
+        "pages/college-course", 
+        "pages/college-intelligence", 
+
+        "pages/favorite-tips", 
+
+        "pages/teacherstudy", 
+        "pages/teacherstudy-theory", 
+        "pages/teacherstud-selftest", 
+
+        "pages/mocktest-loginsuccess", 
+        "pages/mocktest-login", 
+        "pages/mocktest-answer", 
+        "pages/mocktest-submit", 
+
+        "pages/chapter-exercises", 
+        "pages/chapterexercises-collection", 
+        "pages/selftest", 
+        "pages/selftest-answer", 
+        "pages/selftest-submit", 
+
+        "pages/wrong-exercises", 
+        "pages/wrong-answer" 
+      ]
+    }
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "ext-class":"bar",
+    "color": "#000",
+    "selectedColor": "#EB3726",
+    "borderStyle": "white",
+    "backgroundColor":"#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tab_icon_question_normal.png",
+        "selectedIconPath": "static/tab_icon_question_normal.png",
+        "text": "习题"
+      },
+      {
+        "pagePath": "pages/admin/admin",
+        "iconPath": "static/tab_icon_me_selected.png",
+        "selectedIconPath": "static/tab_icon_me_selected.png",
+        "text": "我的"
+      }
+    ]
+  },
   "sitemapLocation": "sitemap.json"
 }

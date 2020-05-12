@@ -1,0 +1,125 @@
+<!--package-admin/admin/admin.wxml-->
+<scroll-view class="container" scroll-y="true">
+    <view class="nav-container">
+      <image class="uva-pic" src="/static/c16c517b35f4d9f96e4f7d0315a9c7166fb28e4047f37-aJGje4_fw658-2@2x.png "></image>
+      <view class="title">IV级多旋翼超视距驾驶员</view>
+    </view>
+
+<!--个人中心内容开始-->
+    <view class="content-container">
+
+    <!--用户信息，头像，用户名，微信号开始-->
+      <view class="avator-container">
+        <view class="img-container">
+          <image class="avator" src="/static/timg.jpg"></image>
+        </view>
+        <view class="name-container">
+          <view class="username">梵高的右耳</view>
+          <view class="phonenumber">1300000000</view>
+        </view>
+      </view>
+    <!--用户信息，头像，用户名，微信号结束-->
+
+    <!--最新自我测试成绩开始-->
+      <view class="selftest achievement">
+      <!--标题-->
+        <view class="achievement-title">
+          <view class="title-2">最新自我测试成绩</view>
+          <view class="all-container">
+            <view class="phonenumber">查看全部</view>
+            <image src="/static/turnright.png"></image>
+          </view>
+        </view>
+      <!--理论测试成绩--> 
+      <view class="testscores">
+         <view class="testscores-container">
+          <view class="test-title">理论测试成绩</view>
+          <view class="scores-container">
+            <view class="score-container">
+              <view class="score">80</view>
+              <view>分</view>
+            </view>
+            <view class="usetime">用时：28′46″</view>
+            <view class="date">2020-05-11 12:00</view>
+          </view>
+        </view>
+      <!--综合测试成绩--> 
+        <view class="testscores-container">
+          <view class="test-title">理论测试成绩</view>
+          <view class="scores-container">
+            <view class="score-container">
+              <view class="score">80</view>
+              <view>分</view>
+            </view>
+            <view class="usetime">用时： 28′46″</view>
+            <view class="date">2020-05-11 12:00</view>
+          </view>
+        </view>
+      </view>
+       
+      </view>
+    <!--最新自我测试成绩结束-->
+    
+    <!--最新模拟考试成绩开始-->
+      <view class="mocktest achievement">
+      <!--标题-->
+        <view class="achievement-title">
+          <view class="title-2">最新自我测试成绩</view>
+          <view class="all-container">
+            <view class="phonenumber">查看全部</view>
+            <image src="/static/turnright.png"></image>
+          </view>
+        </view>
+      <!--理论测试成绩--> 
+      <view class="testscores">
+         <view class="testscores-container">
+          <view class="test-title orange">理论测试成绩</view>
+          <view class="scores-container">
+            <view class="score-container">
+              <view class="score">80</view>
+              <view>分</view>
+            </view>
+            <view class="usetime">用时：28′46″</view>
+            <view class="date">2020-05-11 12:00</view>
+          </view>
+        </view>
+      <!--综合测试成绩--> 
+        <view class="testscores-container">
+          <view class="test-title orange">理论测试成绩</view>
+          <view class="scores-container">
+            <view class="score-container">
+              <view class="score">80</view>
+              <view>分</view>
+            </view>
+            <view class="usetime">用时：28′46″</view>
+            <view class="date">2020-05-11 12:00</view>
+          </view>
+        </view>
+      </view>
+       
+      </view>
+    
+
+    <!--最新模拟考试成绩结束-->
+
+    <!--关于我们-->
+    <view class="bottom-jump">
+      <view>关于我们</view>
+      <image src="/static/turnright.png"></image>
+    </view>
+
+    <!--联系老师-->
+    <view class="bottom-jump">
+      <view>关于我们</view>
+      <image src="/static/turnright.png"></image>
+    </view>
+
+    <!--问题反馈-->
+    <view class="bottom-jump">
+      <view>关于我们</view>
+      <image src="/static/turnright.png"></image>
+    </view>
+    </view>
+   <view class="shadow"></view>
+</scroll-view>
+ 

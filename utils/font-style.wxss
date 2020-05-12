@@ -1,0 +1,42 @@
+.grade{
+  font-family: DINAlternate Bold;
+  font-size: 88rpx;
+  font-weight: bold;
+  color: #000;
+}
+.title-1{
+  font-size: 46rpx;
+  font-weight: medium;
+  color: #000;
+  font-family: SF Pro Display Medium;
+}
+
+.title-2{
+  font-size:38rpx;
+  font-family:PingFangSC-Regular,PingFang SC;
+  font-weight:400;
+  color:rgba(0,0,0,1);
+  line-height:38rpx;
+}
+
+.username{
+  font-size:38rpx;
+  font-family:PingFangSC-Medium,PingFang SC;
+  font-weight:500;
+  color:rgba(0,0,0,1);
+  line-height:38rpx;
+}
+.phonenumber{
+  font-size:30rpx;
+  font-family:PingFangSC-Regular,PingFang SC;
+  font-weight:400;
+  color:rgba(159,164,185,1);
+  line-height:30rpx;
+  margin-top: 20rpx;
+}
+.date{
+  font-size:26rpx;
+  font-family:PingFangSC-Regular,PingFang SC;
+  font-weight:400;
+  color:rgba(129,140,163,1);
+}

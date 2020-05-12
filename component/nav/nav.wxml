@@ -1,0 +1,11 @@
+<!--component/nav/nav.wxml-->
+<view class="container">
+  <view class="nav-container clearfix" style="height:{{customBar}}px">
+    <view class="back">
+      
+    </view>
+    <view class="title-container" style="height:{{customBar}}px;padding-top:{{statusBar}}px;">
+      <text class="nav-title" style="top:{{statusBar}}px">风向标</text>
+    </view>
+  </view>
+</view>

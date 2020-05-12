@@ -1,0 +1,7 @@
+/* package-admin/admin-about/admin-about.wxss */
+.about-container{
+  font-size:15px;
+  font-family:PingFangSC-Regular,PingFang SC;
+  font-weight:400;
+  color:rgba(0,0,0,1);
+}
